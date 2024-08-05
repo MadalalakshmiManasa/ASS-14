@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div >
+     <center> <h1>Job Application Form</h1> 
+        <form action="/submit_application" method="post"  style="border: 2px solid black;text-align: center; height: 750px; width: 600px;background-color: bisque;"  > 
+            <br>      
+            <div>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required style="width: 200px;" placeholder="Full Name">
+            </div>
+            <br><br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required style="width: 200px;" placeholder="E-mail">
+            </div>
+            <br><br>
+            <div>
+                <label for="Date">Date:</label>
+                <input type="Date" id="Date" name="Date" required style="width: 200px;" placeholder="Date">
+            </div>
+            <br><br>
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required style="width: 200px;" placeholder="Phone Number">
+            </div>
+            <br><br>
+            <div>
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="3" required style="width: 200px;" placeholder="Address"></textarea>
+            </div>
+            <br><br>
+            <div>
+                <label for="position">Position Applied For:</label>
+                <input type="text" id="position" name="position" required style="width: 200px;" placeholder="Position" >
+            </div>
+            <br><br>
+            <div>
+                <label for="education">Highest Level of Education:</label>
+                <select id="education" name="education" required   style="width: 200px;" placeholder="Education">
+                    <option value="highschool">High School</option>
+                    <option value="associate">Associate Degree</option>
+                    <option value="bachelor">Bachelor's Degree</option>
+                    <option value="master">Master's Degree</option>
+                    <option value="doctorate">Doctorate</option>
+                </select>
+            </div>
+            <br><br>
+            <div>
+                <label for="experience">Work Experience:</label>
+                <textarea id="experience" name="experience" rows="3" required  style="width: 200px;" placeholder="Experience"></textarea>
+            </div>
+            <br><br>
+            <div>
+                <label for="resume">Upload Resume:</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required   style="width: 200px;" placeholder="Resume">
+            </div>
+            <br><br>
+            <div>
+                <label for="experience">Cover Letter:</label>
+                <textarea id="experience" name="experience" rows="3" required  style="width: 200px;" placeholder="Letter"></textarea>
+                
+            </div>
+            <br><br>
+            <div>
+                <button type="submit">Submit Application</button>
+            </div>
+        </form>
+        </center>
+    </div>
+
+</body>
+</html>   
